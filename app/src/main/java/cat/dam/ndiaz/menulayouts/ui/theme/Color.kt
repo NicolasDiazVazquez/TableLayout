@@ -1,4 +1,4 @@
-package cat.dam.andy.menulayouts.ui.theme
+package cat.dam.ndiaz.menulayouts.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

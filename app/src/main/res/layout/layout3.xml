@@ -1,9 +1,308 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0000FF"
     android:orientation="vertical"
-    android:id="@+id/layout3">
+    android:background="#FFFFFF">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0845DF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" no. "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#0845DF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" Product "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#0845DF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" Category "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0845DF"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" Price "
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" 1 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Apple "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Fruits "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 200 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" 2 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Orange "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Fruits "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 100 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" 3 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Tomato "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Vegetable "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 50 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" 4 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Carrot "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Vegetable "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 80 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" 5 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Banana "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bordered_background"
+            android:padding="5dp"
+            android:text=" Fruits "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bordered_background"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 100 "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+
+
+
 
 </LinearLayout>

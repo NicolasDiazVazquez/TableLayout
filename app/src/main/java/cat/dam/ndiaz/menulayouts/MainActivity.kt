@@ -1,6 +1,5 @@
-package cat.dam.andy.menulayouts
+package cat.dam.ndiaz.menulayouts
 
-import android.content.res.Configuration
 import android.os.Bundle
 import android.view.View
 import android.widget.Button

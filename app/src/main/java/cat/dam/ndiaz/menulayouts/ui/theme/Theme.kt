@@ -1,4 +1,4 @@
-package cat.dam.andy.menulayouts.ui.theme
+package cat.dam.ndiaz.menulayouts.ui.theme
 
 import android.app.Activity
 import android.os.Build
